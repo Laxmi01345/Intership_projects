@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Registration Form</title>
+</head>
+<header><img src="logo.png"  height="30px" width="60px"></header> 
+    <form  name="myform" >
+        <div class="container">
+            <div class="register">
+                <h1>Registration Form</h1>
+            </div>
+            <br>
+            <div class="info">
+                <label>Full Name (Will be printed on your Offer Letter and certificate) :</label>
+       
+                <br>
+                <input type="text" class="inf" id="fn" >
+                <br>
+                <small>Error Message</small>
+            </div>
+            
+            <div class="info">
+                <label>Gender :
+                <br>
+                <input type="radio" name="gender" >
+                
+                <label>Male</label>
+                <br>
+                <input type="radio" name="gender" >
+                <label>Female</label>
+                <br>
+                <input type="radio" name="gender" >
+
+                <label>Prefer not to say</label> 
+                <br>   
+                <small>Select your gender </small>    </label>
+
+
+            </div>
+            <div class="info"   id="email_id">
+                <label>Email Id :</label>
+                <br>
+                <input type="email" class="inf" id="inf"  >
+                <br>   
+                <small>Enter you email id </small> 
+            </div>
+            <div class="info"  >
+                <label>Phone number(whatsapp only) :</label>
+                <br>
+                <input type="text" class="inf"  id="mobn"  class="inf" >
+                <br>   
+                <small>Enter your phone number </small> 
+            </div>
+            <div class="info">
+                <label>Select Internship Domain :</label>
+                <br>
+                <input type="radio" name="course" class="course" required>
+                <label> Web Development & Design</label>   
+                <br>
+                <input type="radio" name="course" class="course">
+                <label>Java Development</label>
+                <br>
+                <input type="radio" name="course" class="course"> 
+                <label>Android Application Development</label>
+                <br>
+                <input type="radio" name="course" class="course">
+                <label>Data Science</label>
+                <br>
+                <input type="radio" name="course" class="course"> 
+                <label>Python Programming</label>
+                <br>
+                <input type="radio" name="course" class="course">
+                <label>Graphic Design</label>
+                <br>   
+                <small>Select any one Domain </small> 
+            </div>
+            <br>
+            <div class="info">
+                <label>College :</label>
+                <br>
+                <input type="text"  id="clgg" class="inf">
+                <br>   
+                <small>Enter your College name </small> 
+            </div>
+            <br>
+            <div class="info">
+                <label>Highest Academic Qualification </label><br>
+                <label> Most recent or currently pursuing an academic degree :</label>
+                <br>
+                <input type="text" id="qual"  class="inf" >
+                <br>   
+                <small>Enter your Current pursuing degree </small> 
+            </div>
+            <br>
+            <div class="info">
+                <label>Where did you learn about InStaffer?</label>
+                <br>
+                <input type="radio" name="fame" required >
+                <label>Social Media ( Instagram, LinkedIn, etc.)</label>
+                <br>
+                <input type="radio" name="fame" id="">
+                <label>Campus Placement Cell/Coordinators </label>
+                <br>
+                <input type="radio" name="fame" id="">
+                <label>Referral (Friends, Colleagues, Relatives etc. )</label>
+                <br>
+                <input type="radio" name="fame" id="">
+                <label> Others. </label><br>
+                <input type="text" class="inf"  id="">
+                <br>   
+                <small>Required</small> 
+
+            </div>
+            <br>
+            <div class="info">
+                <label>Current Year(Education):</label>
+                <br>
+                <input type="text" id="edd"  class="inf" >
+                <br>   
+                <small>Enter current year of Education </small> 
+            </div>
+            <br>
+            <div class="info">
+                <label>Please join the Telegram community for continued communication. </label> <br>
+                <label>Telegram Community :-  </label>
+                <a href="Staffer Telegram"">Staffer Telegram</a> <br>
+                <label>LinkedIn :-</label>
+                <a href="https://www.linkedin.com/company/instaffer/">Staffer LinkedIn</a> <br>
+                <br>
+                <input type="radio" id="req1" required value="yes">
+                <label >Yes</label>
+                <br>   
+                <small>Required </small> 
+
+            </div>
+            <br>
+
+            <div class="info">
+                <label>I have understood the internship details and I hereby acknowledge and accept the terms and conditions of InStaffer</label>
+                <br><br>
+                <input type="radio" id="req2" required>
+                <label>Yes</label>
+                <br>   
+                <small>Required </small> 
+
+            </div>
+
+            <br>
+
+            <div class="sub"   id="Submit">
+                <button class="submit" id="subb" >Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

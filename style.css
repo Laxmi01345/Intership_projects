@@ -1,0 +1,97 @@
+body{
+   
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+
+}
+header{
+    padding: 60px;
+    margin: 20px 40px 0px 40px;
+    
+
+}
+label{
+    color: rgb(3, 1, 0);
+    font-size: 18px;
+    font-weight:bold;
+    color: rgb(13, 13, 14);
+    
+    
+}
+
+
+.register{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+
+.container{
+
+    margin-left: 110px;
+    padding: 30px;
+    width: 540px;
+    background-color: rgba(43, 43, 48, 0.137);
+    border-radius: 10px;
+    
+
+}
+input.inf
+{
+    width: 260px;
+}
+.info{
+     padding: 8px;
+}
+
+.course{
+    padding: 30px;
+}
+
+button{  
+  text-align: center;
+  padding: 5px;
+  margin-left: 100px;
+}
+
+#subb{
+    width: 300px;
+    height: 50px;
+    background-color: rgba(93, 67, 225, 0.961);
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    
+
+}
+
+#subb:hover{
+    background-color: brown;
+}
+
+input.inf{
+    
+    width: 450px;
+    padding: 8px;
+}
+
+
+small{
+    font-size: 17px;
+    color: red;
+    visibility: hidden;
+}
+
+.info.success input{
+    border:2px solid rgb(45, 237, 45)
+}
+
+.info.error input{
+    border:2px solid red;
+}
